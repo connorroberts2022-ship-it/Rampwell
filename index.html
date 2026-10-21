@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My First Website</title>
+  <style>
+    /* Basic styles — feel free to change these colors and sizes. */
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #222;
+      background: #f4f6f8;
+    }
+
+    header {
+      padding: 20px;
+      text-align: center;
+      color: white;
+      background: #18263d;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      margin: 0 10px;
+      color: white;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      width: min(900px, 90%);
+      margin: 35px auto;
+    }
+
+    section {
+      margin-bottom: 20px;
+      padding: 24px;
+      border-radius: 10px;
+      background: white;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    }
+
+    .hero {
+      padding: 45px 24px;
+      text-align: center;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 18px;
+      border-radius: 6px;
+      color: white;
+      background: #2563eb;
+      text-decoration: none;
+    }
+
+    .button:hover {
+      background: #1d4ed8;
+    }
+
+    footer {
+      padding: 18px;
+      text-align: center;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My First Website</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">What I Do</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Welcome to My Website</h2>
+      <p>A simple place to share who I am, what I do, and what I'm working on.</p>
+      <a class="button" href="#about">Learn More</a>
+    </section>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>Hi! I'm building my first website. This section is where you can introduce yourself, your business, or your idea.</p>
+    </section>
+
+    <section id="services">
+      <h2>What I Do</h2>
+      <p>Use this space to describe your work, list your services, show a project, or explain your idea.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Want to get in touch? Replace the example email below with your own.</p>
+      <a class="button" href="mailto:hello@example.com">Email Me</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 My First Website</p>
+  </footer>
+</body>
+</html>
